@@ -8,7 +8,8 @@
     <ProjectGuid>{EE97BCF5-80C4-4D5F-8ADB-A013C921EE6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZeroTouch</RootNamespace>
+    <!--<RootNamespace>ZeroTouch</RootNamespace>-->
+    <RootNamespace>Open-Structural</RootNamespace>
     <AssemblyName>Open-Structural</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -83,7 +84,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="OpenStructuralImags.resx" />
+    <EmbeddedResource Include="PackageImages.resx" />
+  </ItemGroup>
+  <ItemGroup>
+	<Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DefaultCustomNode.Large.png" />
@@ -98,8 +102,8 @@
     <GetReferenceAssemblyPaths TargetFrameworkMoniker=".NETFramework, Version=v2.0">
       <Output TaskParameter="FullFrameworkReferenceAssemblyPaths" PropertyName="FrameworkAssembliesPath" />
     </GetReferenceAssemblyPaths>
-    <GenerateResource UseSourcePath="true" Sources="$(ProjectDir)OpenStructuralImags.resx" OutputResources="$(ProjectDir)OpenStructuralImags.resources" References="$(FrameworkAssembliesPath)System.Drawing.dll" />
-    <AL TargetType="library" EmbedResources="$(ProjectDir)OpenStructuralImags.resources" OutputAssembly="$(OutDir)OpenStructural.customization.dll" />
+    <GenerateResource UseSourcePath="true" Sources="$(ProjectDir)PackageImages.resx" OutputResources="$(ProjectDir)PackageImages.resources" References="$(FrameworkAssembliesPath)System.Drawing.dll" />
+    <AL TargetType="library" EmbedResources="$(ProjectDir)PackageImages.resources" OutputAssembly="$(OutDir)Package.customization.dll" />
   </Target>
   <Target Name="AfterBuild">
     <ItemGroup>

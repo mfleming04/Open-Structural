@@ -3,5 +3,5 @@ X:\Visual_Studio_Projects\Open-Structural\Open-Structural\bin\Debug\Open-Structu
 X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\Open-Structural.csproj.GenerateResource.Cache
 X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\Open-Structural.dll
 X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\Open-Structural.pdb
-X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\ZeroTouch.OpenStructuralImags.resources
 X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\Open-Structural.csprojResolveAssemblyReference.cache
+X:\Visual_Studio_Projects\Open-Structural\Open-Structural\obj\Debug\Open-Structural.PackageImages.resources
